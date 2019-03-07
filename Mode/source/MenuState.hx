@@ -85,8 +85,6 @@ class MenuState extends FlxState
 		FlxG.mouse.visible = true;
 		#end
 		
-		FlxG.log.add("Hello world!");
-
 		super.create();
 	}
 	
