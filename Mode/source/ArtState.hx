@@ -13,7 +13,7 @@ class ArtState extends FlxState
         _sprite.setFacingFlip(FlxObject.LEFT, true, false);
         _sprite.setFacingFlip(FlxObject.RIGHT, false, false);
         
-        _sprite.animation.add("walk", [1, 2, 3, 4, 5, 6], 5);
+        _sprite.animation.add("walk", [1, 2, 3, 4, 5, 6], 8);
         _sprite.animation.add("idle", [0], 5);
         add(_sprite);
 
@@ -39,7 +39,6 @@ class ArtState extends FlxState
         {
             _sprite.animation.play("idle");
         }
-
 
         super.update(e);
     }
