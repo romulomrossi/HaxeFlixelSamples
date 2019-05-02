@@ -64,7 +64,7 @@ import haxe.macro.Expr;
 			maximized: false,
 			minimized: false,
 			parameters: {},
-			resizable: true,
+			resizable: false,
 			title: "Mode",
 			width: 640,
 			x: null,
